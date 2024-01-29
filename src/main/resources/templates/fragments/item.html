@@ -1,0 +1,5 @@
+<div class="itembox" th:fragment="item" th:id="'item_' + ${item.id}">
+    <h2 th:text="${item.name}"></h2>
+    <p th:text="${item.expirationDate}"></p>
+    <p th:text="${item.timeDiff}"></p>
+</div>

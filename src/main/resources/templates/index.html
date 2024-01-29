@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <th:block th:insert="~{fragments/head.html}"></th:block>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Gardian of the Groceries</h1>
+<div th:each="location : ${locations}" th:insert="~{fragments/storageLocation.html}"></div>
+</body>
+</html>

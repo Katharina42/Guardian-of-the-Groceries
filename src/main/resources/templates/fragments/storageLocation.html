@@ -1,0 +1,4 @@
+<div th:fragment="storageLocation">
+  <button class="location"><a th:href="@{/storage_location/ordered/{id}(id=${location.id})}"><h2 th:text="${location.locationName}"></h2>
+    </button>
+</div>

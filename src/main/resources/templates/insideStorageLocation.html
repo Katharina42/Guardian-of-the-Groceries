@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>insideStorageLocation</title>
+    <th:block th:insert="~{fragments/head.html}"></th:block>
+    <title>Home</title>
+        <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+<div th:each="item :${items}" th:insert="~{fragments/item.html}" th:attr="data-item-id=${item.id}"></div>
+</body>
+</html>

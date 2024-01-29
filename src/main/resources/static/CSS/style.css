@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    font-family: 'Courier', monospace;
+}
+button.location {
+    
+    font-family: 'Courier', monospace;
+
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+  
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    width: auto;
+
+}
+.itembox {
+    background-color: #FFFFFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+   
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px rgba(99, 99, 99, 0.3);
+}
